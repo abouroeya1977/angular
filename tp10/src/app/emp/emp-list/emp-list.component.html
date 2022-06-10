@@ -1,0 +1,23 @@
+<br>
+<div class="container">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nom</th>
+                <th scope="col">Salaire</th>
+                <th scope="col">Fonction</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr employee-detail *ngFor="let ee of employees" [employee]='ee'>
+            </tr>
+            <tr>
+                <a [routerLink]="['/',{ outlets: { primary: ['navbar'],contenu:
+['create'] } }]" *ngIf="isAdmin">
+                    Nouveau employé
+                </a>
+            </tr>
+        </tbody>
+    </table>
+</div>
