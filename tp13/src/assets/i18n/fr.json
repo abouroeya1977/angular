@@ -1,0 +1,6 @@
+{
+    "login": "Identifiant",
+    "password": "Mot de passe",
+    "employees.navbar.menu":"Gestion des employés",
+    "users.navbar.menu":"Gestion des utilisateurs"
+    }

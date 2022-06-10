@@ -1,0 +1,6 @@
+{
+    "login": "login",
+    "password": "password",
+    "employees.navbar.menu":"Employees management",
+    "users.navbar.menu":"Users management"
+    }
